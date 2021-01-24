@@ -8,6 +8,9 @@ public class Main {
         int suma = 2;
 
         while(numero <= 10){
+
+            System.out.println("Numero + Suma: " + numero + " + " + suma + " = " + (numero+suma));
+            
             suma = suma + numero;
             numero = numero + 2;
         }
